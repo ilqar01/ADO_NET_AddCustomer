@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\CustomerRepository.cs" />
+    <Compile Include="DataAccess\EmployeeRepository.cs" />
+    <Compile Include="DataAccess\SqlUnitOfWork.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
